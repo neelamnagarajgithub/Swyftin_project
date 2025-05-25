@@ -9,7 +9,7 @@ const wss = new WebSocket.Server({ server });
 
 app.use(cors(
   {
-    origin: 'https://swyftin-project.vercel.app', // Adjust this to your frontend's URL
+    origin: '*', // Adjust this to your frontend's URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type']
   }
