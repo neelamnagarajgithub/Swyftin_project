@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import './App.css';
 
-const WS_URL = 'wss://swyftin-project-lewo.vercel.app';
-const API_URL = 'https://swyftin-project-lewo.vercel.app/messages';
+const WS_URL = 'https://swyftin-project.onrender.com';
+const API_URL = 'https://swyftin-project.onrender.com/messages';
 
 // Maximum number of reconnection attempts
 const MAX_RECONNECT_ATTEMPTS = 5;
