@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 
-const WS_URL = 'ws://localhost:3001';
-const API_URL = 'http://localhost:3001/messages';
+const WS_URL = 'ws://swyftin-project-lewo.vercel.app';
+const API_URL = 'http://https://swyftin-project-lewo.vercel.app/messages';
 
 function App() {
   const [messages, setMessages] = useState([]);
